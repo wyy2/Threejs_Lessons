@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	#wrap {
+		position: absolute;
+		width: 320px;
+		height: 480px;
+	}
+	#container {
+		position: absolute;
+		width: 320px;
+		height: 480px;
+	}
+	#startGame {
+		position: absolute;
+		bottom: 10px;
+		padding: 5px;
+		background-color: gray;
+		color: white;
+	}
+</style>
+<script src="libs/gsap.min.js"></script>
+<body>
+	<div id='wrap'>
+		<div id='container'>
+		</div>
+		<div id='startGame'>Start</div>
+		
+	</div>
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@v0.166.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.166.0/examples/jsm/"
+    }
+  }
+</script>
+
+<script type="module" src="/code.js"></script>
+</body>
+</html>
